@@ -36,6 +36,12 @@ The [Components](./components/README.md) section provides detailed information a
 
 The [Planning System](./components/planning.md) document provides detailed information about the planning system in OpenManus, which is a key feature that enables the agent to break down complex tasks into manageable steps.
 
+The [PlanningFlow Usage](./components/planningflow_usage.md) document provides detailed information about where and how the PlanningFlow component is used in the OpenManus project, including practical usage examples.
+
+The [Prompt System](./components/prompt_system.md) document provides detailed information about the prompt system in OpenManus, which is a key component that enables agents to understand and execute tasks effectively.
+
+The [Prompt Examples and Evolution](./components/prompt_examples.md) document provides detailed examples of prompts used in different scenarios in OpenManus and discusses how these prompts evolve throughout the execution of tasks.
+
 The [Configuration System](./components/configuration.md) document provides detailed information about the configuration system in OpenManus, which allows users to customize the behavior of the agent and its components.
 
 ### Tools
@@ -80,8 +86,11 @@ For more advanced topics, check out the following documents:
 
 1. [Extending OpenManus](./usage/extending.md): Creating custom components
 2. [Planning System](./components/planning.md): Understanding the planning system
-3. [Configuration System](./components/configuration.md): Customizing OpenManus
-4. [Tools](./tools/README.md): Understanding and creating tools
+3. [PlanningFlow Usage](./components/planningflow_usage.md): Understanding how PlanningFlow is used
+4. [Prompt System](./components/prompt_system.md): Understanding the prompt system
+5. [Prompt Examples and Evolution](./components/prompt_examples.md): Understanding prompt usage and evolution
+6. [Configuration System](./components/configuration.md): Customizing OpenManus
+7. [Tools](./tools/README.md): Understanding and creating tools
 
 ## Contributing
 
