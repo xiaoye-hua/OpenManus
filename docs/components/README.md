@@ -12,6 +12,8 @@ OpenManus consists of several key components:
 - **LLM Integration**: Integration with language models for natural language understanding and generation
 - **Configuration**: System for managing settings and customization
 - **Prompt System**: System for guiding agent behavior through carefully crafted prompts
+- **Memory Management**: System for storing and retrieving conversation history and agent state
+- **Context Management**: System for managing context windows and browser contexts
 
 ## Documentation
 
@@ -30,6 +32,14 @@ The [Prompt System](./prompt_system.md) document provides detailed information a
 ### Prompt Examples and Evolution
 
 The [Prompt Examples and Evolution](./prompt_examples.md) document provides detailed examples of prompts used in different scenarios in OpenManus and discusses how these prompts evolve throughout the execution of tasks.
+
+### Memory Management
+
+The [Memory Management](./memory_management.md) document provides detailed information about the memory management system in OpenManus, which is responsible for storing and retrieving conversation history and agent state.
+
+### Context Management
+
+The [Context Management](./context_management.md) document provides detailed information about the context management system in OpenManus, which is responsible for managing the context window for language model interactions and browser contexts for web interactions.
 
 ### Configuration System
 
@@ -66,4 +76,12 @@ OpenManus uses a configuration system to manage settings for LLMs and other comp
 
 ### Prompt System
 
-OpenManus uses a prompt system to guide agent behavior through carefully crafted prompts. The prompt system consists of system prompts that define the agent's identity and capabilities, and next step prompts that guide the agent's decision-making process. See the [Prompt System](./prompt_system.md) and [Prompt Examples and Evolution](./prompt_examples.md) documentation for more details. 
+OpenManus uses a prompt system to guide agent behavior through carefully crafted prompts. The prompt system consists of system prompts that define the agent's identity and capabilities, and next step prompts that guide the agent's decision-making process. See the [Prompt System](./prompt_system.md) and [Prompt Examples and Evolution](./prompt_examples.md) documentation for more details.
+
+### Memory Management
+
+OpenManus uses a memory management system to store and retrieve conversation history and agent state. The memory system consists of a Memory class that stores messages and provides methods for adding, retrieving, and clearing messages. See the [Memory Management](./memory_management.md) documentation for more details.
+
+### Context Management
+
+OpenManus uses a context management system to manage the context window for language model interactions and browser contexts for web interactions. The context management system includes token limit configuration, context window optimization, and browser context operations. See the [Context Management](./context_management.md) documentation for more details. 

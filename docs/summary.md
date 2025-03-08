@@ -42,6 +42,10 @@ The [Prompt System](./components/prompt_system.md) document provides detailed in
 
 The [Prompt Examples and Evolution](./components/prompt_examples.md) document provides detailed examples of prompts used in different scenarios in OpenManus and discusses how these prompts evolve throughout the execution of tasks.
 
+The [Memory Management](./components/memory_management.md) document provides detailed information about the memory management system in OpenManus, which is responsible for storing and retrieving conversation history and agent state.
+
+The [Context Management](./components/context_management.md) document provides detailed information about the context management system in OpenManus, which is responsible for managing the context window for language model interactions and browser contexts for web interactions.
+
 The [Configuration System](./components/configuration.md) document provides detailed information about the configuration system in OpenManus, which allows users to customize the behavior of the agent and its components.
 
 ### Tools
@@ -89,8 +93,10 @@ For more advanced topics, check out the following documents:
 3. [PlanningFlow Usage](./components/planningflow_usage.md): Understanding how PlanningFlow is used
 4. [Prompt System](./components/prompt_system.md): Understanding the prompt system
 5. [Prompt Examples and Evolution](./components/prompt_examples.md): Understanding prompt usage and evolution
-6. [Configuration System](./components/configuration.md): Customizing OpenManus
-7. [Tools](./tools/README.md): Understanding and creating tools
+6. [Memory Management](./components/memory_management.md): Understanding memory management
+7. [Context Management](./components/context_management.md): Understanding context management
+8. [Configuration System](./components/configuration.md): Customizing OpenManus
+9. [Tools](./tools/README.md): Understanding and creating tools
 
 ## Contributing
 
