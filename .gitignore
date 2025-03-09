@@ -179,4 +179,5 @@ data/
 # Workspace
 workspace/
 config/config.toml
-docs/q_a.md
+result*
+.vscode/
